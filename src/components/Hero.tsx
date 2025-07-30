@@ -59,7 +59,7 @@ const Hero = () => {
             <a href="public/Venkatesh_Enakonda_QE.pdf.pdf" download="Venkatesh_Enakonda_QE.pdf"target="_blank" rel="noopener noreferrer">
               Download Resume</a>
           </Button>
-          <Button variant="ghost-neon" size="lg" className="group">
+          <Button variant="ghost-neon" size="lg" className="group" onClick={() => {const element = document.getElementById('projects');if (element) {element.scrollIntoView({ behavior: 'smooth' });}}}>
             Explore Projects
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
