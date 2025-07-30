@@ -5,8 +5,8 @@ import { ExternalLink, Github, Play } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-commerce Test Automation Suite",
-      description: "Comprehensive Selenium-based framework for testing e-commerce platforms with parallel execution and detailed reporting.",
+      title: "JobCheck",
+      description: "A portal to provide an opportunity to employers to post the vacancies and ﬁnd the best suited candidates. Also, help the job seekers ﬁnd the relevant jobs and connect to the recruiters to check for vacancies and application follow ups. Also helps the jobseekers in their Career guidance. This portal also has the feature to learn and upskill.",
       image: "/api/placeholder/400/250",
       technologies: ["Selenium", "TestNG", "Java", "Maven", "Jenkins"],
       githubUrl: "#",
@@ -14,28 +14,28 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Mobile App Testing Framework",
-      description: "Cross-platform mobile testing solution using Appium for both Android and iOS applications.",
+      title: "Restaurant One Solution(ROS)",
+      description: "Restaurant One solution is an ERP designed for our Client in UK in Food-Tech vertical. Auditing, Cash Up, Billing, Banking, Reconciliation, HR, Employee Engagement, Attendance, Leaves, Managing Shifts, Reports and Analytics are some of the modules in the ERP. KPI driven process ﬂow enables the users to perform their end-to- end activities with ease.",
       image: "/api/placeholder/400/250",
-      technologies: ["Appium", "Python", "pytest", "Docker", "BrowserStack"],
+      technologies: ["Selenium", "Java", "TestNG", "Cucumber", "Maven", "Jira", "Jenkins"],
       githubUrl: "#",
       liveUrl: "#",
       featured: true
     },
     {
-      title: "API Automation Testing Tool",
+      title: "API Automation Testing",
       description: "RESTful API testing framework with comprehensive validation and performance testing capabilities.",
       image: "/api/placeholder/400/250",
-      technologies: ["REST Assured", "JavaScript", "Newman", "Postman", "CI/CD"],
+      technologies: ["REST Assured", "Java", "Postman", "CI/CD"],
       githubUrl: "#",
       liveUrl: "#",
       featured: false
     },
     {
-      title: "Performance Testing Dashboard",
-      description: "Real-time performance monitoring and testing dashboard with automated load testing scenarios.",
+      title: "Saudi Pet Chem",
+      description: "Developing this app for Frost & Sullivan based in Saudi Arabia, this application would be the one stop solution for the Government of Saudi Arabia and Investors to have a insight of chemicals getting manufactured in their country with having access to their manufacturers and their location with the capacities of a chemical product.",
       image: "/api/placeholder/400/250",
-      technologies: ["JMeter", "Grafana", "InfluxDB", "Python", "AWS"],
+      technologies: ["Mobile App Testing", "MS-Excel", "Jira"],
       githubUrl: "#",
       liveUrl: "#",
       featured: false
