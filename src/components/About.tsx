@@ -15,7 +15,7 @@ const About = () => {
   }, {
     year: "2021 - 2022",
     role: "QA Engineer Intern",
-    company: "Hypersix.ai",
+    company: "Hypersonix.ai",
     description: "Manual and automated testing for web and mobile applications"
   }];
 
