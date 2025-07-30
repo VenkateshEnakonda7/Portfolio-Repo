@@ -20,17 +20,16 @@ const About = () => {
   }];
 
   const education = [{
-    year: "2017 - 2021",
+    year: "2015 - 2020",
     degree: "Bachelor of Technology",
-    field: "Computer Science Engineering",
-    institution: "JNTUK University College of Engineering",
-    grade: "8.2 CGPA"
+    field: "Mechanical Engineering",
+    institution: "Aditya College of Engineering and Technology"
   }, {
-    year: "2015 - 2017",
+    year: "2013 - 2015",
     degree: "Intermediate",
     field: "Mathematics, Physics, Chemistry",
     institution: "Sri Chaitanya Junior College",
-    grade: "95.2%"
+    grade: "84.5%"
   }];
   const stats = [{
     icon: Target,
