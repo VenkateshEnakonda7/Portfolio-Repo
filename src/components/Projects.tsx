@@ -134,7 +134,7 @@ const Projects = () => {
 
         {/* View All Projects Button */}
         <div className="text-center mt-12">
-          <Button variant="ghost-neon" size="lg">
+          <Button variant="ghost-neon" size="lg"  href="https://github.com/VenkateshEnakonda7">
             View All Projects on GitHub
             <Github className="ml-2 h-5 w-5" />
           </Button>
