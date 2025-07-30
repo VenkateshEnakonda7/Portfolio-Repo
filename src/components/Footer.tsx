@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center">
                 <Code2 className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="font-mono font-bold text-lg text-gradient">Venkatesh Kumar</span>
+              <span className="font-mono font-bold text-lg text-gradient">Venkatesh Enakonda</span>
             </div>
             <p className="text-muted-foreground">
               Automation Test Engineer passionate about building the future of quality assurance.
@@ -37,6 +37,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="text-muted-foreground">Test Automation</p>
               <p className="text-muted-foreground">Framework Development</p>
+              <p className="text-muted-foreground">Framework Maintenance</p>
               <p className="text-muted-foreground">CI/CD Integration</p>
               <p className="text-muted-foreground">Quality Consulting</p>
             </div>
