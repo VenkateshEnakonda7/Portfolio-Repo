@@ -1,21 +1,21 @@
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Target, Users, Award } from "lucide-react";
 const About = () => {
-  const skills = ["Selenium WebDriver", "Appium", "TestNG", "JUnit", "Python", "Java", "JavaScript", "REST API Testing", "Postman", "Jenkins", "Docker", "Git/GitHub", "JIRA", "CI/CD", "Agile", "BDD", "Cucumber"];
+  const skills = ["Java", "Selenium WebDriver", "Sql", "TestNG", "JUnit", "Python", "REST API Testing", "Postman", "Jenkins", "Docker", "Git/GitHub", "JIRA", "CI/CD", "Agile", "BDD", "Cucumber"];
   const experience = [{
-    year: "2022 - Present",
+    year: "2024 - Present",
     role: "Senior Automation Test Engineer",
     company: "Hypersonix.ai",
     description: "Leading test automation initiatives for enterprise applications"
   }, {
-    year: "2020 - 2022",
+    year: "2022 - 2024",
     role: "Automation Test Engineer",
-    company: "Digital Innovations Ltd.",
+    company: "Pratian Digital Ltd.",
     description: "Developed comprehensive test frameworks and CI/CD pipelines"
   }, {
-    year: "2018 - 2020",
-    role: "QA Engineer",
-    company: "StartUp Dynamics",
+    year: "2021 - 2022",
+    role: "QA Engineer Intern",
+    company: "Hypersix.ai",
     description: "Manual and automated testing for web and mobile applications"
   }];
   const stats = [{
