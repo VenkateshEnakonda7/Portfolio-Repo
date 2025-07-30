@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, ArrowRight, Code, Terminal, Zap } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 animated-grid opacity-30"></div>
       
@@ -11,10 +9,14 @@ const Hero = () => {
       <div className="absolute top-20 left-10 text-neon-cyan opacity-60 float">
         <Code size={32} />
       </div>
-      <div className="absolute top-40 right-20 text-neon-purple opacity-60 float" style={{ animationDelay: '2s' }}>
+      <div className="absolute top-40 right-20 text-neon-purple opacity-60 float" style={{
+      animationDelay: '2s'
+    }}>
         <Terminal size={28} />
       </div>
-      <div className="absolute bottom-40 left-20 text-primary opacity-60 float" style={{ animationDelay: '4s' }}>
+      <div className="absolute bottom-40 left-20 text-primary opacity-60 float" style={{
+      animationDelay: '4s'
+    }}>
         <Zap size={24} />
       </div>
 
@@ -30,7 +32,8 @@ const Hero = () => {
         <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
           <span className="text-gradient">Venkatesh</span>
           <br />
-          <span className="text-foreground">Kumar</span>
+          <span className="text-foreground">Enakonda
+        </span>
         </h1>
 
         {/* Role */}
@@ -77,8 +80,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
