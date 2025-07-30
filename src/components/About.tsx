@@ -100,7 +100,7 @@ const About = () => {
             <div className="glass-card p-8">
               <h3 className="text-2xl font-bold text-gradient-purple mb-6">Experience</h3>
               <div className="space-y-6">
-                {experience.map((exp, index) => <div key={index} className="border-l-2 border-primary/30 pl-6 pb-6 last:pb-0">
+                {experience.map((exp, index) => <div key={index} className="border-s-2 border-primary/30 pl-6 pb-6 last:pb-0">
                     <div className="flex items-center gap-3 mb-2">
                       <div className="w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
                       <span className="text-sm font-mono text-primary">{exp.year}</span>
