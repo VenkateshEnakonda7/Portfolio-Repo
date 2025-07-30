@@ -118,7 +118,7 @@ const About = () => {
               <div className="space-y-6">
                 {education.map((edu, index) => <div key={index} className="relative border-l-2 border-primary/30 pl-6 pb-6 last:pb-0">
                   {/*<div className="flex items-center gap-3 mb-2">*/}
-                      <div className="absolute -left-0 top-1.5 w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
+                      <div className="absolute -left-0 top-1 w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
                       <div className="mb-2">
                       <span className="text-sm font-mono text-primary">{edu.year}</span>
                     </div>
