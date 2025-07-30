@@ -5,7 +5,7 @@ const About = () => {
   const experience = [{
     year: "2022 - Present",
     role: "Senior Automation Test Engineer",
-    company: "Tech Solutions Inc.",
+    company: "Hypersonix.ai",
     description: "Leading test automation initiatives for enterprise applications"
   }, {
     year: "2020 - 2022",
