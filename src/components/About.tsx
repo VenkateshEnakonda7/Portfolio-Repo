@@ -33,7 +33,7 @@ const About = () => {
     { icon: Target, label: "Projects Delivered", value: "50+" },
     { icon: CheckCircle, label: "Test Cases Automated", value: "10K+" },
     { icon: Users, label: "Team Members Led", value: "8" },
-    { icon: Award, label: "Years Experience", value: "6+" }
+    { icon: Award, label: "Years Experience", value: "3+" }
   ];
 
   return (
