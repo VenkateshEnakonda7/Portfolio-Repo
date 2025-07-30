@@ -21,11 +21,11 @@ const About = () => {
   const stats = [{
     icon: Target,
     label: "Projects Delivered",
-    value: "50+"
+    value: "5+"
   }, {
     icon: CheckCircle,
     label: "Test Cases Automated",
-    value: "10K+"
+    value: "1K+"
   }, {
     icon: Users,
     label: "Team Members Led",
