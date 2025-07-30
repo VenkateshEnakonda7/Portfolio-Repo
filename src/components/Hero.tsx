@@ -38,7 +38,7 @@ const Hero = () => {
 
         {/* Role */}
         <div className="text-xl md:text-2xl font-mono text-primary mb-4">
-          &lt; Automation Test Engineer /&gt;
+          &lt; Automation Test Engineer / &gt;
         </div>
 
         {/* Tagline */}
