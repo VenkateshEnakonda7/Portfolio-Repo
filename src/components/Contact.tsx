@@ -31,14 +31,14 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "venkatesh@example.com", href: "mailto:venkatesh@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" }
+    { icon: Mail, label: "Email", value: "venkateshenakonda7.ev@gmail.com", href: "mailto:venkateshenakonda7.ev@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+917075555313", href: "tel:+917075555313" },
+    { icon: MapPin, label: "Location", value: "Kakinada, Andhra Pradesh", href: "#" }
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Github, href: "#", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/venkateshenakonda/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/VenkateshEnakonda7", label: "GitHub" },
     { icon: Twitter, href: "#", label: "Twitter" }
   ];
 
