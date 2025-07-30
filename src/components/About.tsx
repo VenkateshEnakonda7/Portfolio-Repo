@@ -89,7 +89,7 @@ const About = () => {
               <div className="space-y-6">
                 {experience.map((exp, index) => <div key={index} className="border-l-2 border-primary/30 pl-6 pb-6 last:pb-0">
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="w-3 h-3 bg-primary rounded-full -ml-7 border-4 border-background"></div>
+                      <div className="w-3 h-3 bg-primary rounded-full -ml-[8px] border-4 border-background"></div>
                       <span className="text-sm font-mono text-primary">{exp.year}</span>
                     </div>
                     <h4 className="text-lg font-semibold">{exp.role}</h4>
