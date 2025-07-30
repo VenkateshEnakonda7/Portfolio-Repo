@@ -101,8 +101,9 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gradient-purple mb-6">Experience</h3>
               <div className="space-y-6">
                 {experience.map((exp, index) => <div key={index} className="border-l-2 border-primary/30 pl-6 pb-6 last:pb-0">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="absolute -left-1.5 top-2.5 w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
+                  {/*<div className="flex items-center gap-3 mb-2">*/}
+                      <div className="absolute -left-0 top-0 w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
+                      <div className="mb-2">
                       <span className="text-sm font-mono text-primary">{exp.year}</span>
                     </div>
                     <h4 className="text-lg font-semibold">{exp.role}</h4>
