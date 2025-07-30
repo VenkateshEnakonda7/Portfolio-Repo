@@ -113,33 +113,20 @@ const About = () => {
             </div>
 
             {/* Education Timeline */}
-            <div className="glass-card p-8">
-  <h3 className="text-2xl font-bold text-gradient-purple mb-6">Education</h3>
-  <div className="space-y-6">
-    {education.map((edu, index) => (
-      <div
-        key={index}
-        className="relative pl-8 border-l-2 border-primary/30 pb-6 last:pb-0"
-      >
-        {/* Timeline Dot */}
-        <div className="absolute left-0 top-2.5 w-3 h-3 bg-primary rounded-full border-4 border-background"></div>
-
-        {/* Year and Info */}
-        <div className="mb-2">
-          <span className="text-sm font-mono text-primary">{edu.year}</span>
-        </div>
-
-        <h4 className="text-lg font-semibold">{edu.degree}</h4>
-        <p className="text-primary font-medium">{edu.institution}</p>
-        <p className="text-muted-foreground text-sm">{edu.field}</p>
-        <p className="text-muted-foreground text-sm font-medium mt-1">
-          Grade: {edu.grade}
-        </p>
-      </div>
-    ))}
-  </div>
-</div>
-
+              <div className="glass-card p-8">
+              <h3 className="text-2xl font-bold text-gradient-purple mb-6">Education</h3>
+              <div className="space-y-6">
+                {education.map((edu, index) => <div key={index} className="border-l-2 border-primary/30 pl-6 pb-6 last:pb-0">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="w-3 h-3 bg-primary rounded-full -ml-[7px] border-4 border-background"></div>
+                      <span className="text-sm font-mono text-primary">{edu.year}</span>
+                    </div>
+                    <h4 className="text-lg font-semibold">{edu.degree}</h4>
+                    <p className="text-primary font-medium">{edu.institution}</p>
+                    <p className="text-muted-foreground text-sm">{edu.field}</p>
+                    <p className="text-muted-foreground text-sm font-medium mt-1">Grade: {edu.grade}</p>
+                  </div>)}
+              </div>
             </div>
           </div>
         </div>
