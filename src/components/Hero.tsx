@@ -58,7 +58,7 @@ const Hero = () => {
             <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
             Download Resume
           </Button>
-          <Button variant="ghost-neon" size="lg" className="group">
+          <Button variant="ghost-neon" size="lg" className="group" href="#projects">
             Explore Projects
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
