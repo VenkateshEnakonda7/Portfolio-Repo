@@ -55,10 +55,11 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="neon" size="lg" className="group">
-            <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-            Download Resume
+            <Download className="mr-2 h-5 w-5 group-hover:animate-bounce"/>
+            <a href="public/Venkatesh_Enakonda_QE.pdf.pdf" download="Venkatesh_Enakonda_QE.pdf"target="_blank" rel="noopener noreferrer">
+              Download Resume</a>
           </Button>
-          <Button variant="ghost-neon" size="lg" className="group" href="#projects">
+          <Button variant="ghost-neon" size="lg" className="group">
             Explore Projects
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
