@@ -80,6 +80,12 @@ const Hero = () => {
             <span className="font-mono text-sm">Python</span>
           </div>
           <div className="glass-card px-4 py-2 hover:scale-105 transition-transform">
+            <span className="font-mono text-sm">PostMan</span>
+          </div>
+          <div className="glass-card px-4 py-2 hover:scale-105 transition-transform">
+            <span className="font-mono text-sm">RestAssured</span>
+          </div>
+          <div className="glass-card px-4 py-2 hover:scale-105 transition-transform">
             <span className="font-mono text-sm">Jenkins</span>
           </div>
         </div>
