@@ -61,7 +61,7 @@ const About = () => {
           <div className="space-y-8">
             <div className="glass-card p-8">
               <h3 className="text-2xl font-bold text-gradient-purple mb-4">My Journey</h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">With over 3+ years of experience in software testing and automation, I specialize in creating robust, scalable test frameworks that integrate seamlessly with modern development workflows. My expertise spans web, mobile, and API testing automation.</p>
+              <p className="text-muted-foreground leading-relaxed mb-6">With over 2+ years of experience in software testing and automation, I specialize in creating robust, scalable test frameworks that integrate seamlessly with modern development workflows. My expertise spans web, mobile, and API testing automation.</p>
               <p className="text-muted-foreground leading-relaxed">
                 I believe in the power of automation to not just find bugs, but to prevent them. 
                 My approach combines technical excellence with strategic thinking to deliver 
