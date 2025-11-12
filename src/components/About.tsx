@@ -3,11 +3,6 @@ import { CheckCircle, Target, Users, Award } from "lucide-react";
 const About = () => {
   const skills = ["Java", "Selenium WebDriver", "Sql", "TestNG", "JUnit", "Python", "REST API Testing", "Postman", "Jenkins", "Docker", "Git/GitHub", "JIRA", "CI/CD", "Agile", "BDD", "Cucumber"];
   const experience = [{
-    year: "2024 - Present",
-    role: "Senior Automation Test Engineer",
-    company: "KGFM Media",
-    description: "Leading test automation initiatives for enterprise applications"
-  }, {
     year: "2022 - 2024",
     role: "Automation Test Engineer",
     company: "Pratian Digital Ltd.",
